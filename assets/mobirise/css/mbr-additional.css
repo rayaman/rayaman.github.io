@@ -1,3 +1,81 @@
+
+#ext_menu-17 {
+.mbr-brand__name {
+	font-size: 16px;
+}
+&.mbr-navbar--stuck .mbr-navbar__section {
+	background: #2c2c2c;
+}
+.mbr-navbar__section {
+	background: #2c2c2c;
+}
+.mbr-brand__name a {
+	font-size: 24px;
+}
+.mbr-navbar__hamburger {
+	color: #ffffff;
+}
+.navbar-toggler {
+	color: #ffffff;
+}
+.close-icon::before, .close-icon::after {
+	background-color: #ffffff;
+}
+.link, .dropdown-item {
+	color: #ffffff;
+}
+.link {
+	font-size: 0.75rem;
+}
+.dropdown-item, .nav-dropdown-sm .link {
+	font-size: 0.812rem;
+}
+.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-menu {
+	background: #0e0e0e;
+}
+.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {
+	background: #202020!important;
+}
+.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded="true"], .nav-dropdown-sm .dropdown-menu {
+	background: #282828;
+}
+.bg-color.transparent .link {
+	color: #ffffff;
+	transition: none;
+}
+.bg-color.transparent.opened .link {
+	transition: color .2s ease-in-out;
+}
+.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {
+	color: @primaryColor;
+}
+.link[aria-expanded="true"], .dropdown-item[aria-expanded="true"] {
+	color: #c0a375!important;
+}
+}
+
+#content5-29 {
+.mbr-header .mbr-header__text {
+	text-align: center;
+	color: #fff;
+}
+.mbr-header .mbr-header__subtext {
+	text-align: center;
+	color: #fff;
+}
+.mbr-article {
+	color: #fff;
+}
+}
+
+#form1-5 {
+.form-control-label {
+	color: #232323;
+}
+}
 #ext_menu-17 .mbr-brand__name {
   font-size: 16px;
 }
@@ -12,29 +90,6 @@
 }
 #ext_menu-17 .mbr-navbar__hamburger {
   color: #ffffff;
-}
-#content5-29 .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #fff;
-}
-#content5-29 .mbr-header .mbr-header__subtext {
-  text-align: center;
-  color: #fff;
-}
-#content5-29 .mbr-article {
-  color: #fff;
-}
-#ext_menu-17 .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-17.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2d2d2d;
-}
-#ext_menu-17 .mbr-navbar__section {
-  background: #2d2d2d;
-}
-#ext_menu-17 .mbr-brand__name a {
-  font-size: 24px;
 }
 #content5-14 .mbr-header .mbr-header__text {
   text-align: center;
@@ -76,6 +131,9 @@
 }
 #ext_menu-17 .mbr-brand__name a {
   font-size: 24px;
+}
+#ext_menu-17 .mbr-navbar__hamburger {
+  color: #ffffff;
 }
 #content5-14 .mbr-header .mbr-header__text {
   text-align: center;

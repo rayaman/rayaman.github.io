@@ -9,8 +9,6 @@
       "title": "Mobirise",
       "styling": {}
     },
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Ryan/Desktop/Documentation",
     "path": "file:///C:/Users/Ryan/AppData/Local/Mobirise.com/Mobirise/projects/project-2016-01-23_114858",
     "screenshot": "screenshot.png",
     "uniqCompNum": 0
@@ -708,7 +706,6 @@
           "_name": "content5",
           "_anchor": "content5-13",
           "_params": {
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showTitle": true,
@@ -848,7 +845,6 @@
           "_name": "content5",
           "_anchor": "content5-14",
           "_params": {
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showTitle": true,
@@ -1057,7 +1053,6 @@
           "_name": "content5",
           "_anchor": "content5-20",
           "_params": {
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showTitle": true,
