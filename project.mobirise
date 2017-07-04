@@ -1,0 +1,1375 @@
+{
+  "settings": {
+    "currentPage": "MultiManager-LoveBind.html",
+    "versionFirst": "2.8.1",
+    "versionPublish": "3.12.1",
+    "name": "GuiManager",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Ryan/Desktop/Documentation",
+    "path": "file:///C:/Users/Ryan/AppData/Local/Mobirise.com/Mobirise/projects/project-2016-01-23_114858",
+    "screenshot": "screenshot.png",
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-29",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "Lua Libraries Made by Me!<br>",
+          "meta": "",
+          "text": "<p>This site will hold everything i make.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-5",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!<br><br>",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    },
+    "MultiManager-LoveBind.html": {
+      "settings": {
+        "title": "MultiManager/LoveBind",
+        "meta_descr": "A big whooping documentation on this masive library that can multitask."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "font-size": "17px"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "MultiManager &amp; LoveBind",
+          "meta": "",
+          "text": "<p>As of version 'A.0.0' The MultiManager Library has 19 Objects:<br></p><p><br></p><ol><li>+Events </li><li>   +Alarms </li><li>   +Loops </li><li>   +Steps </li><li>   +TSteps </li><li>   +Triggers </li><li>   +Tasks </li><li>   +Connections </li><li>   +Timers </li><li>   +Jobs </li><li>   +Interfaces </li><li>   +Conditions </li><li>   +Ranges </li><li>  +Threads </li><li>   +Functions </li><li>   +Stacks </li><li>   +Updaters </li><li>  +Watchers </li><li>  +CustomObjects.</li></ol><p><br></p><p>Each object has its purpose and their overall toll on the system. I use the terms Runners, Actors, Semi-Actors, and Non-Actors. Runners use a small percentage of the processing power within MultiManager library, however Runners can contain Actors and Semi-Actors, so as those are added the total load increases on Runners. Actors are tested/acted upon every step. What are steps? Steps are each loop that the library goes through. think of a for loop for a second. \"for i=1,10 do multi:uManager() end\" In this case there would be 10 steps that the program went through. Semi-Actors come in different forms, they tend to use a lot less processing because the function overhead is lower. Non-Actors are not part of the loop so they don't take up any. I can create hundreds of a certain non-actor and see no preformance drop. Well as long as I don't trigger them.</p><p><br></p><p>So what objects are: Runners, Actors, Semi-Actors and Non-Actors?</p><p><br></p><p>Runners</p><p>Right now we have 2 (technically 3) Runners:</p><ol><li>intObj=multi:newInterface([string: FilePath defualt: nil])</li><li>intObj=multi:newQueue([string: FilePath defualt: nil])</li></ol><p><br></p><p>The \"multi\" object is the third runner and is the main one that is used. There are some features that do not work on this object. Pause(), Resume() and Destroy() do not work with the 'multi' object.</p><p>For the first 2 interface Objects you don't need to input a filepath, however loading an interface/queue from an external file keeps the main code clean and less cluttered.</p><p>Check the examples page for how to do this.</p><p><br></p><p>Interfaces work just like the 'multi' Object, they use inheritance and take all the methods and variables from the multiobject. The only difference is interfaces and all the objects they contain cand be paused where the 'multi' object can not be paused.</p><p><br></p><p>Queues work like the interface but they do something different. Instead of each object running side by side like normally do they run one at a time in that queue. However other objects running in a seperate interface/queue will still run side by side. The examples on the examples page will show this.</p><p><br></p><p>Actors</p><p>Right now we have 9 Actors:</p><ol><li>eventObj=multi:newEvent([function: TASK defualt: function() end])</li><li>alarmObj=multi:newAlarm([number: SET defualt: 0])</li><li>loopObj=multi:newLoop([function: FUNC])</li><li>stepObj=multi:newStep([number: START defualt: 0],[number: RESET defualt: inf],[number: COUNT defualt: 1],[number: SKIP defualt: 0])</li><li>tstepObj=multi:newTStep([number: START defualt: 0],[number: RESET defualt: inf],[number: COUNT defualt: 1],[number: SET defualt: 1])</li><li>updaterObj=multi:newUpdater([number: SKIP defualt: 0])</li><li>watcherObj=multi:newWatcher(table: NAMESPACE,string: NAME)</li><li>multiObj=multi:newCustomObject([table: OBJREF],[string: T='process'])</li><li>void=multi:newThread(string: name,function: func)</li></ol>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "form1-24",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
+        }
+      ]
+    },
+    "GuiManager-Core-Syntax": {
+      "settings": {
+        "title": "GuiManager Core & Syntax",
+        "meta_descr": "GuiManager Core & Syntax Enjoy ;)"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-25",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    },
+    "Examples.html": {
+      "settings": {
+        "title": "Examples",
+        "meta_descr": "Examples on using the GuiManager"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article H1": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "25px"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "Example 1: Interfaces",
+          "meta": "",
+          "text": "<p>Setup: We are going to use 3 files: main.lua, interface.lua and the actual library MultiManager.lua (Note: this is needed for all examples but won't be mentioned after example 1)</p><p>In main.lua type in this:</p><pre>require(\"multimanager\") -- loads the multimanager library<br>int=multi:newInterface(\"interface.lua\") -- creates the interface object using 'interface.lua' as the reference<br>int:Start() -- you need to start the interface object<br>multi:mainloop() -- this starts the mainloop for multimanager library</pre><p>In interface.lua type in this:</p><pre>looper=interface:newLoop(function(dt,loop) -- interface is a keyword that only exists here after this file is ran this variable is discarded<br>&nbsp;print(dt) -- 'dt' is delta time, the amount of time that has passed from the start of the loop object. If a loop object was created 10 seconds later its 'dt' will start at 0 while the others are at their respective values<br>&nbsp;looper.a=looper.a+1 -- add 1 to the looper's variable 'a'<br>&nbsp;-- loop a reference to the loop object looper<br>end)<br>looper.a=0 -- initilizies looper's variable 'a' to 0<br>event=interface:newEvent(function(evnt) -- evnt is a reference to the event object<br>&nbsp;return (looper.a==10000) -- when this is true the event object is trigered<br>&nbsp;-- after an event is triggered, the event object is paused and must be resumed inorder to be triggered again<br>end)<br>event:OnEvent(function(evnt)<br>&nbsp;print(\"Looper's variable 'a' has reached 10000\")<br>&nbsp;looper:Destroy() -- Destroy an object if you no longer need it. If you want to reuse an object use obj:Pause() and obj:Resume()<br>&nbsp;evnt.Parent:Stop() -- the evnt object is a child of the interface object; therefore now that we are done we stop the interface and allow other interfaces/queues to run with more processing power\nend)</pre><p>Now I have commented every single line, (When in your lua editor this should have syntax highlighting and be much more readable), however let me explain what is going on. First I create the main.lua file and loaded up the module, loaded the interface, started the interface and then started the module's mainloop.&nbsp;</p><p>In the interface code we create a loop object that prints the delta time and adds 1 to a variable we created inside of the loop object. We also created an event object that keeps watching the looper's variable 'a' and fires when the variable is equal to 10000. When this happens the looper object is destroyed and the interface object is stopped.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-16",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "Example 2: Queues",
+          "meta": "",
+          "text": "<p>Setup: We are going to use 2 files: main.lua, queue.lua</p><p>In main.lua type in this:</p><pre>require(\"multimanager\") -- loads the multimanager library\nque=multi:newQueue(\"queue.lua\") -- creates the queue object using 'queue.lua' as the reference\nque:Start() -- you need to start the queue object\nmulti:mainloop() -- this starts the mainloop for multimanager library</pre><p>In queue.lua type in this:</p><pre>step=queue:newStep(1,10,1,0) -- You only need 1 and 10 for this because the other variables are the defualt ones and arent needed. I put them however to have the chance to explain them for you guys.<br>--think of for loops 1 is the start and 10 is the end that 1 is the count value (it shouldn't be below .001, rounding errors mess things up a lua problem) the 0 is the skip value, lets say it were 1, then every other step would trigger the OnStep() method 2 would every 2 steps, etc<br>alarm=queue:newAlarm(3) -- creates an alarm object and sets the time to 3<br>loop=queue:newLoop(function(dt,l) -- creates the loop object<br>&nbsp;print(\"Its looping time!\") -- prints<br>&nbsp;l:Break() -- Stop the loop, this breaks out of the loop and also triggers OnBreak(func) connection<br>end)<br>queue:OnQueueCompleted(function(que) -- connects to when the queue has ended passes ref to the queue object\n&nbsp;print(\"Queue done! Stopping!\") -- print<br>&nbsp;que:Stop() -- stops the queue<br>end)<br>-- This stuff effects the step, alarm and loop objects<br>alarm:OnRing(function(alarm) -- connects to the alarm ringing event passes ref to alarm object<br>&nbsp;print(\"Alarm has rung! Starting loop!\") -- prints<br>end)<br>step:OnStep(function(pos,s) -- connects to the steps main event passes the position that the step is on and a ref to the step object<br>&nbsp;print(pos) -- prints<br>end)<br>step:OnEnd(function(step) -- connects to the steps end event passes a ref to the step object<br>&nbsp;print(\"Step has completed! Starting alarm!\") -- prints<br>end)<br>loop:OnBreak(function(self) -- connects to the loops break event passes a ref to the loop object<br>&nbsp;print(\"Loop has been broken!\") -- prints<br>end)</pre><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-26",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    },
+    "FAQ.html": {
+      "settings": {
+        "title": "FAQ",
+        "meta_descr": "You users asked this again and again so here it is!"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-13",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "FAQ",
+          "meta": "",
+          "text": "<p>If enough of you ask, I will add... Right now I got nothing.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-27",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    },
+    "bin.html": {
+      "settings": {
+        "title": "Binary manipulation library",
+        "meta_descr": "the bin library... I had fun with this one"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-14",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "The bin Library",
+          "meta": "",
+          "text": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-28",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    },
+    "Source.html": {
+      "settings": {
+        "title": "Sources",
+        "meta_descr": "Here are the sources for the libraries"
+      },
+      "components": [
+        {
+          "_name": "header3",
+          "_anchor": "header3-18",
+          "title": "Source Code:",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": ""
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "buttons1-17",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"assets/downloads/source.zip\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD Complete Package as a .zip</a>  "
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-17",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "Love2DLibraries.html": {
+      "settings": {
+        "title": "Documentation for my game libraries",
+        "meta_descr": "blah",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2d2d2d"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "24px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-19",
+          "_params": {
+            "color": "#2d2d2d",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Complete Documentation</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Examples.html\">Examples</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"FAQ.html\">FAQ</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-20",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "GuiManager",
+          "meta": "",
+          "text": "The GuiManager library was created with the intent to provide an easy way to implement menus and other visual effects into ones game. This is not a GUI library like LoveFrames! It doesn't provide premade menus for the most part. However this library makes it easy to create your own menus. Check the <a href=\"Examples.html\">example</a> page for examples of how one could go about using this library. I suggest reading the documentation in order: MultiManager (Very important Library to understand), LoveBind(Not as important but a list of features that are changed are shown), After this take a look at GuiManager Syntax/Core,&nbsp;<h1></h1>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "features1",
+          "_anchor": "features1-21",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "2",
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "MultiManager/LoveBind",
+          "caption1": "This is a multitasking library that I have been working on, on and off, for 3 years. It went through 3 complete rewrites and is 100% compataible with &nbsp;all versions of lua 5.1+. This library can be used in any version of lua that has a working os.clock(), lovebind allows the libraries features to use a bit of loves extras, It also uses its own custom run function. Click below for documentation for this library.",
+          "button1": "<a data-app-btn=\"true\" href=\"MultiManager-LoveBind.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "GuiManager Syntax/Core",
+          "caption2": "This will document non-function parts of this library and the basics of menu creation also we'll touch on hierarchy stuff. This library is a rather new one. I recently got into love2d, perhaps about a year and a half. I fell in love with it XD. Anyway click below for syntax and shared variables.&nbsp;",
+          "button2": "<a data-app-btn=\"true\" href=\"GuiManager-Core-Syntax\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "WEB FONTS",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_name": "features1",
+          "_anchor": "features1-22",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "6",
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "Text Objects",
+          "caption1": "Display text, create a textbox, buttons and labels, let's GO!",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "Frame Objects",
+          "caption2": "Basic objects can be used to hold things, they all can do what frames can do but they are really light objects and should be use instead of heavier ones.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "Images/Animation Objects",
+          "caption3": "What's a Gui Library without the ablity of showing images? This provides a way to strech, scale, manage tiles, and use basic animations.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "Item Objects",
+          "caption4": "Items are pratically a mix of all objects before this one. Learn why these even exist and why you should use a text if you want only text, image for only image, and frame for only frames instead of spamming items.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "Miscellaneous Features",
+          "caption5": "A collection of non-existential features. &nbsp;They aren't needed but are very useful.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "DrawingCore",
+          "caption6": "Explains how drawing works and clipping, DRAWbacks and other bugs that are still being worked out.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-23",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Got an Idea? Have questions? Contact Me!<br><br>",
+          "form": {
+            "action": "rayaman99@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        }
+      ]
+    }
+  }
+}
