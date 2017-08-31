@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Code",
-    "currentPage": "ContactMe.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -19,17 +19,18 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 14,
+    "versionPublish": "4.2.3"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Index",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -91,17 +92,17 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -127,28 +128,33 @@
             "Theme"
           ],
           "_name": "features3",
+          "_styles": {
+            "P": {
+              "color": "#cccccc"
+            }
+          },
           "_anchor": "features3-2",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -163,7 +169,7 @@
             }
           },
           "title1": "About Me",
-          "subtitle1": "Learn a bit about who Ryan (rayaman) is.",
+          "subtitle1": "Learn a bit about who Ryan is.",
           "caption1": "Do you dare dive into the mind of the crazed coder?",
           "button1": "<a data-app-btn=\"true\" href=\"AboutMe.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">I'm ready</a>",
           "media2": {
@@ -249,13 +255,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -273,7 +279,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Buy me a drink first ;)<br><br>",
+          "text1": "This site is a WIP<br><br>It will contain news and other stuff when its done",
           "text2": "<strong>Contacts</strong><br>\nEmail: rayaman99@gmail.com<br>\nPhone: +1 (516) 262 - 2814<br><br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"https://github.com/rayaman\">My Github</a><a href=\"https://github.com/rayaman\"></a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br></p><br><p><br><br></p>"
         }
@@ -340,17 +346,17 @@
           "_name": "menu",
           "_anchor": "menu-6",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -381,13 +387,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -405,7 +411,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Buy me a drink first ;)<br><br>",
+          "text1": "This site is a WIP<br><br>It will contain news and other stuff when its done",
           "text2": "<strong>Contacts</strong><br>\nEmail: rayaman99@gmail.com<br>\nPhone: +1 (516) 262 - 2814<br><br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"https://github.com/rayaman\">My Github</a><a href=\"https://github.com/rayaman\"></a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br></p><br><p><br><br></p>"
         }
@@ -472,17 +478,17 @@
           "_name": "menu",
           "_anchor": "menu-8",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -513,13 +519,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -537,7 +543,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Buy me a drink first ;)<br><br>",
+          "text1": "This site is a WIP<br><br>It will contain news and other stuff when its done",
           "text2": "<strong>Contacts</strong><br>\nEmail: rayaman99@gmail.com<br>\nPhone: +1 (516) 262 - 2814<br><br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"https://github.com/rayaman\">My Github</a><a href=\"https://github.com/rayaman\"></a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br></p><br><p><br><br></p>"
         }
@@ -604,17 +610,17 @@
           "_name": "menu",
           "_anchor": "menu-a",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -642,19 +648,19 @@
           "_name": "form1",
           "_anchor": "form1-c",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Tell me your concerns.",
@@ -702,13 +708,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -726,7 +732,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Buy me a drink first ;)<br><br>",
+          "text1": "This site is a WIP<br><br>It will contain news and other stuff when its done",
           "text2": "<strong>Contacts</strong><br>\nEmail: rayaman99@gmail.com<br>\nPhone: +1 (516) 262 - 2814<br><br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"https://github.com/rayaman\">My Github</a><a href=\"https://github.com/rayaman\"></a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br></p><br><p><br><br></p>"
         }
@@ -793,17 +799,17 @@
           "_name": "menu",
           "_anchor": "menu-4",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#000000",
             "fontSize": "0.6",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -834,13 +840,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -858,7 +864,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Buy me a drink first ;)<br><br>",
+          "text1": "This site is a WIP<br><br>It will contain news and other stuff when its done",
           "text2": "<strong>Contacts</strong><br>\nEmail: rayaman99@gmail.com<br>\nPhone: +1 (516) 262 - 2814<br><br>",
           "text3": "<p><strong>Links</strong><br>\n<a href=\"https://github.com/rayaman\">My Github</a><a href=\"https://github.com/rayaman\"></a><a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br></p><br><p><br><br></p>"
         }

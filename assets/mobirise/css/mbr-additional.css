@@ -478,6 +478,9 @@ h6,
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #475577!important;
 }
+#features3-2 P {
+  color: #cccccc;
+}
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
 }
